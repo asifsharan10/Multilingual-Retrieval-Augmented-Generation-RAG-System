@@ -249,6 +249,7 @@ bengali_separators = [
 2. **Ollama connection error**: Ensure `ollama serve` is running
 3. **Memory issues**: Reduce batch size in embeddings config
 4. **Bengali font rendering**: Install Bengali fonts on system
+5. **Had to fix chunks size multiple times in order to get close to correct answers maximum time
 
 ### Debug Commands
 ```bash
