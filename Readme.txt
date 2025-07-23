@@ -22,6 +22,7 @@ pip install sentence-transformers faiss-cpu
 pip install pdf2image pytesseract pillow
 pip install ollama requests
 
+
 # Install Tesseract OCR with Bengali support
 # Windows: Download from https://github.com/tesseract-ocr/tesseract
 # Ubuntu: sudo apt-get install tesseract-ocr tesseract-ocr-ben
@@ -31,6 +32,12 @@ pip install ollama requests
 ollama pull mistral
 ollama serve
 ```
+
+python -m venv venv
+.\venv\Scripts\activate
+pip install uvicorn
+...
+
 
 ### Project Structure
 ```
